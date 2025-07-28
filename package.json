@@ -1,0 +1,26 @@
+{
+  "name": "val",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "test": "turbo run test",
+    "check": "turbo run check",
+    "format": "ultracite format",
+    "clean": "bun run scripts/clean.ts",
+    "clean:deep": "bun run scripts/clean.ts && bun install --no-cache"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.1.2",
+    "@types/bun": "^1.2.19",
+    "turbo": "^2.5.5",
+    "typescript": "5.8.3",
+    "ultracite": "5.1.1"
+  },
+  "packageManager": "bun@1.2.17",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ]
+}

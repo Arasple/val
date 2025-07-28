@@ -1,0 +1,60 @@
+name: Update Dependencies
+
+on:
+  schedule:
+    # 每天北京时间上午 9 点运行（UTC 时间凌晨 1 点）
+    - cron: '0 1 * * *'
+  workflow_dispatch: # 允许手动触发
+
+jobs:
+  update-dependencies:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Setup Bun
+        uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: latest
+
+      - name: Update root dependencies
+        run: |
+          echo "Updating root dependencies..."
+          bun update --no-cache
+
+      - name: Update apps dependencies
+        run: |
+          echo "Updating apps/web dependencies..."
+          cd apps/web && bun update --no-cache
+
+      - name: Update packages dependencies
+        run: |
+          for package in packages/*; do
+            if [ -d "$package" ] && [ -f "$package/package.json" ]; then
+              echo "Updating $package dependencies..."
+              cd "$package" && bun update --no-cache && cd -
+            fi
+          done
+
+      - name: Configure Git
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+
+      - name: Commit and Push changes
+        run: |
+          git add -A
+          if ! git diff --staged --quiet; then
+            git commit -m "chore: update dependencies [skip ci]"
+            git push
+            echo "✅ Dependencies updated and pushed to main branch"
+          else
+            echo "ℹ️ No dependency updates available"
+          fi

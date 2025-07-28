@@ -1,0 +1,22 @@
+{
+  "$schema": "https://biomejs.dev/schemas/2.1.2/schema.json",
+  "extends": ["ultracite"],
+  "files": {
+    "includes": [
+      "**/*",
+      "!bun.lock",
+      "!**/.*/**",
+      "!**/node_modules/**",
+      "!**/dist/**",
+      "!**/build/**",
+      "!packages/ui/**/*"
+    ]
+  },
+  "linter": {
+    "rules": {
+      "suspicious": {
+        "noConsole": "off"
+      }
+    }
+  }
+}
