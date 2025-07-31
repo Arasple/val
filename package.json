@@ -1,26 +1,41 @@
 {
   "name": "val",
   "version": "0.0.0",
+  "packageManager": "bun@1.2.19",
   "private": true,
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev",
     "test": "turbo run test",
-    "check": "turbo run check",
+    "check": "turbo run check && tsc --noEmit && ultracite lint",
     "format": "ultracite format",
     "clean": "bun run scripts/clean.ts",
     "clean:deep": "bun run scripts/clean.ts && bun install --no-cache"
   },
-  "devDependencies": {
-    "@biomejs/biome": "2.1.2",
-    "@types/bun": "^1.2.19",
-    "turbo": "^2.5.5",
-    "typescript": "5.8.3",
-    "ultracite": "5.1.1"
+  "workspaces": {
+    "packages": [
+      "apps/*",
+      "packages/*"
+    ],
+    "catalog": {
+      "react": "^19.1.1",
+      "react-dom": "^19.1.1",
+      "next": "^15.4.5",
+      "typescript": "^5.9.2",
+      "tailwindcss": "^4.1.11",
+      "turbo": "^2.5.5",
+      "ultracite": "^5.1.2",
+      "@types/bun": "^1.2.19",
+      "@types/react-dom": "^19.1.7",
+      "@biomejs/biome": "^2.1.3",
+      "@tailwindcss/postcss": "^4.1.11"
+    }
   },
-  "packageManager": "bun@1.2.17",
-  "workspaces": [
-    "apps/*",
-    "packages/*"
-  ]
+  "devDependencies": {
+    "@biomejs/biome": "catalog:",
+    "@types/bun": "catalog:",
+    "turbo": "catalog:",
+    "typescript": "catalog:",
+    "ultracite": "catalog:"
+  }
 }

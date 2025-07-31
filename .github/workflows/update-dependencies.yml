@@ -27,19 +27,19 @@ jobs:
       - name: Update root dependencies
         run: |
           echo "Updating root dependencies..."
-          bun update --no-cache
+          bun update --latest --no-cache
 
       - name: Update apps dependencies
         run: |
           echo "Updating apps/web dependencies..."
-          cd apps/web && bun update --no-cache
+          cd apps/web && bun update --latest --no-cache
 
       - name: Update packages dependencies
         run: |
           for package in packages/*; do
             if [ -d "$package" ] && [ -f "$package/package.json" ]; then
               echo "Updating $package dependencies..."
-              cd "$package" && bun update --no-cache && cd -
+              cd "$package" && bun update --latest --no-cache && cd -
             fi
           done
 

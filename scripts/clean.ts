@@ -13,20 +13,10 @@ const dirsToDelete = new Set([
   'dist',
   'build',
   '.cache',
-  '.parcel-cache',
-  '.vite',
-  'coverage',
-  '.nyc_output',
-  '.eslintcache',
-  '.stylelintcache',
   'out',
   'tmp',
   'temp',
-  '.nuxt',
   '.output',
-  '.solid',
-  '.sveltekit',
-  '.astro',
 ]);
 
 const filesToDelete = [
