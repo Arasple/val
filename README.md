@@ -1,7 +1,5 @@
 # val
 
-中文 | [English](./README.md)
-
 一个基于 Turborepo 的现代化 monorepo 模板项目。
 
 ## 技术栈
