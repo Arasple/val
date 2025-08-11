@@ -11,8 +11,8 @@
     "./postcss.config": "./postcss.config.mjs"
   },
   "dependencies": {
-    "react": "catalog:",
-    "react-dom": "catalog:",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "lucide-react": "^0.539.0",
@@ -23,7 +23,7 @@
   },
   "devDependencies": {
     "@repo/tsconfig": "workspace:*",
-    "@tailwindcss/postcss": "catalog:",
-    "tailwindcss": "catalog:"
+    "@tailwindcss/postcss": "^4.1.11",
+    "tailwindcss": "^4.1.11"
   }
 }

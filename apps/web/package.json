@@ -12,14 +12,14 @@
   },
   "dependencies": {
     "@repo/ui": "workspace:*",
-    "next": "catalog:",
-    "react": "catalog:",
-    "react-dom": "catalog:"
+    "next": "^15.4.6",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
   },
   "devDependencies": {
-    "@types/bun": "catalog:",
+    "@types/bun": "^1.2.20",
     "@repo/tsconfig": "workspace:*",
-    "@tailwindcss/postcss": "catalog:",
-    "tailwindcss": "catalog:"
+    "@tailwindcss/postcss": "^4.1.11",
+    "tailwindcss": "^4.1.11"
   }
 }
