@@ -32,10 +32,10 @@
     }
   },
   "devDependencies": {
-    "@biomejs/biome": "^2.1.4",
+    "@biomejs/biome": "^2.2.0",
     "@types/bun": "^1.2.20",
     "turbo": "^2.5.5",
     "typescript": "^5.9.2",
-    "ultracite": "^5.1.2"
+    "ultracite": "^5.1.5"
   }
 }
