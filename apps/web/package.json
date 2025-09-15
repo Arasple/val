@@ -17,7 +17,7 @@
     "react-dom": "^19.1.1"
   },
   "devDependencies": {
-    "@types/bun": "^1.2.21",
+    "@types/bun": "^1.2.22",
     "@repo/tsconfig": "workspace:*",
     "@tailwindcss/postcss": "^4.1.13",
     "tailwindcss": "^4.1.13"
