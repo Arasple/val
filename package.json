@@ -36,6 +36,6 @@
     "@types/bun": "^1.2.23",
     "turbo": "^2.5.8",
     "typescript": "^5.9.2",
-    "ultracite": "^5.4.5"
+    "ultracite": "^5.4.6"
   }
 }
