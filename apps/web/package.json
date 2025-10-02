@@ -13,13 +13,13 @@
   "dependencies": {
     "@repo/ui": "workspace:*",
     "next": "^15.5.4",
-    "react": "^19.1.1",
-    "react-dom": "^19.1.1"
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
   },
   "devDependencies": {
     "@types/bun": "^1.2.23",
     "@repo/tsconfig": "workspace:*",
-    "@tailwindcss/postcss": "^4.1.13",
-    "tailwindcss": "^4.1.13"
+    "@tailwindcss/postcss": "^4.1.14",
+    "tailwindcss": "^4.1.14"
   }
 }
