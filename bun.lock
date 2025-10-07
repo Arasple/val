@@ -8,7 +8,7 @@
         "@types/bun": "^1.2.23",
         "turbo": "^2.5.8",
         "typescript": "^5.9.3",
-        "ultracite": "^5.5.0",
+        "ultracite": "^5.5.1",
       },
     },
     "apps/web": {
@@ -422,7 +422,7 @@
 
     "loupe": ["loupe@3.2.0", "https://registry.npmmirror.com/loupe/-/loupe-3.2.0.tgz", {}, "sha512-2NCfZcT5VGVNX9mSZIxLRkEAegDGBpuQZBy13desuHeVORmBDyAET4TkJr4SjqQy3A8JDofMN6LpkK8Xcm/dlw=="],
 
-    "lucide-react": ["lucide-react@0.544.0", "", { "peerDependencies": { "react": "^16.5.1 || ^17.0.0 || ^18.0.0 || ^19.0.0" } }, "sha512-t5tS44bqd825zAW45UQxpG2CvcC4urOwn2TrwSH8u+MjeE+1NnWl6QqeQ/6NdjMqdOygyiT9p3Ev0p1NJykxjw=="],
+    "lucide-react": ["lucide-react@0.545.0", "", { "peerDependencies": { "react": "^16.5.1 || ^17.0.0 || ^18.0.0 || ^19.0.0" } }, "sha512-7r1/yUuflQDSt4f1bpn5ZAocyIxcTyVyBBChSVtBKn5M+392cPmI5YJMWOJKk/HUWGm5wg83chlAZtCcGbEZtw=="],
 
     "magic-string": ["magic-string@0.30.17", "https://registry.npmmirror.com/magic-string/-/magic-string-0.30.17.tgz", { "dependencies": { "@jridgewell/sourcemap-codec": "^1.5.0" } }, "sha512-sNPKHvyjVf7gyjwS4xGTaW/mCnF8wnjtifKBEhxfZ7E/S8tQ0rssrwGNn6q8JH/ohItJfSQp9mBtQYuTlH5QnA=="],
 
@@ -522,7 +522,7 @@
 
     "typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
 
-    "ultracite": ["ultracite@5.5.0", "", { "dependencies": { "@clack/prompts": "^0.11.0", "@trpc/server": "^11.5.1", "deepmerge": "^4.3.1", "jsonc-parser": "^3.3.1", "nypm": "^0.6.2", "trpc-cli": "^0.11.0", "vitest": "^3.2.4", "zod": "^4.1.11" }, "bin": { "ultracite": "dist/index.js" } }, "sha512-mkfm9gpB3aVP5OfH3Wmy4QVwICJVGMa3MUNb9k2kmT6mJKQl9j662XjARQFVbJFQLkX4Lg1u2It3oY9PMuJc1A=="],
+    "ultracite": ["ultracite@5.5.1", "", { "dependencies": { "@clack/prompts": "^0.11.0", "@trpc/server": "^11.5.1", "deepmerge": "^4.3.1", "jsonc-parser": "^3.3.1", "nypm": "^0.6.2", "trpc-cli": "^0.11.0", "vitest": "^3.2.4", "zod": "^4.1.11" }, "bin": { "ultracite": "dist/index.js" } }, "sha512-ahXjknjzAT7cMHRKjXeckMjXqexYUv9SlJHeNRb2PaCbIy/DgyRXUu5owgvirZiFoS8BIhZmvgGAGqH7pV0now=="],
 
     "undici-types": ["undici-types@7.8.0", "https://registry.npmmirror.com/undici-types/-/undici-types-7.8.0.tgz", {}, "sha512-9UJ2xGDvQ43tYyVMpuHlsgApydB8ZKfVYTsLDhXkFL/6gfkp+U8xTGdh8pMJv1SpZna0zxG1DwsKZsreLbXBxw=="],
 
