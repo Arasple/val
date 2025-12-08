@@ -6,10 +6,10 @@
       "name": "val",
       "devDependencies": {
         "@biomejs/biome": "^2.3.8",
-        "@types/bun": "^1.3.3",
+        "@types/bun": "^1.3.4",
         "turbo": "^2.6.3",
         "typescript": "^5.9.3",
-        "ultracite": "^6.3.9",
+        "ultracite": "^6.3.10",
       },
     },
     "apps/web": {
@@ -24,7 +24,7 @@
       "devDependencies": {
         "@repo/tsconfig": "workspace:*",
         "@tailwindcss/postcss": "^4.1.17",
-        "@types/bun": "^1.3.3",
+        "@types/bun": "^1.3.4",
         "tailwindcss": "^4.1.17",
       },
     },
@@ -213,13 +213,13 @@
 
     "@trpc/server": ["@trpc/server@11.7.2", "", { "peerDependencies": { "typescript": ">=5.7.2" } }, "sha512-AgB26PXY69sckherIhCacKLY49rxE2XP5h38vr/KMZTbLCL1p8IuIoKPjALTcugC2kbyQ7Lbqo2JDVfRSmPmfQ=="],
 
-    "@types/bun": ["@types/bun@1.3.3", "", { "dependencies": { "bun-types": "1.3.3" } }, "sha512-ogrKbJ2X5N0kWLLFKeytG0eHDleBYtngtlbu9cyBKFtNL3cnpDZkNdQj8flVf6WTZUX5ulI9AY1oa7ljhSrp+g=="],
+    "@types/bun": ["@types/bun@1.3.4", "", { "dependencies": { "bun-types": "1.3.4" } }, "sha512-EEPTKXHP+zKGPkhRLv+HI0UEX8/o+65hqARxLy8Ov5rIxMBPNTjeZww00CIihrIQGEQBYg+0roO5qOnS/7boGA=="],
 
     "@types/node": ["@types/node@24.1.0", "https://registry.npmmirror.com/@types/node/-/node-24.1.0.tgz", { "dependencies": { "undici-types": "~7.8.0" } }, "sha512-ut5FthK5moxFKH2T1CUOC6ctR67rQRvvHdFLCD2Ql6KXmMuCrjsSsRI9UsLCm9M18BMwClv4pn327UvB7eeO1w=="],
 
     "@types/react": ["@types/react@19.1.9", "https://registry.npmmirror.com/@types/react/-/react-19.1.9.tgz", { "dependencies": { "csstype": "^3.0.2" } }, "sha512-WmdoynAX8Stew/36uTSVMcLJJ1KRh6L3IZRx1PZ7qJtBqT3dYTgyDTx8H1qoRghErydW7xw9mSJ3wS//tCRpFA=="],
 
-    "bun-types": ["bun-types@1.3.3", "", { "dependencies": { "@types/node": "*" } }, "sha512-z3Xwlg7j2l9JY27x5Qn3Wlyos8YAp0kKRlrePAOjgjMGS5IG6E7Jnlx736vH9UVI4wUICwwhC9anYL++XeOgTQ=="],
+    "bun-types": ["bun-types@1.3.4", "", { "dependencies": { "@types/node": "*" } }, "sha512-5ua817+BZPZOlNaRgGBpZJOSAQ9RQ17pkwPD0yR7CfJg+r8DgIILByFifDTa+IPDDxzf5VNhtNlcKqFzDgJvlQ=="],
 
     "caniuse-lite": ["caniuse-lite@1.0.30001731", "https://registry.npmmirror.com/caniuse-lite/-/caniuse-lite-1.0.30001731.tgz", {}, "sha512-lDdp2/wrOmTRWuoB5DpfNkC0rJDU8DqRa6nYL6HK6sytw70QMopt/NIc/9SM7ylItlBWfACXk0tEn37UWM/+mg=="],
 
@@ -353,7 +353,7 @@
 
     "typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
 
-    "ultracite": ["ultracite@6.3.9", "", { "dependencies": { "@clack/prompts": "^0.11.0", "@trpc/server": "^11.7.2", "deepmerge": "^4.3.1", "glob": "^13.0.0", "jsonc-parser": "^3.3.1", "nypm": "^0.6.2", "trpc-cli": "^0.12.1", "zod": "^4.1.13" }, "bin": { "ultracite": "dist/index.js" } }, "sha512-bqj8Eh3VWYcjHXMR3+a9xqZXbgFY3PxwB+m9LTC+W1HHs5qtOtxH4QX51MiH513jfThpdM+cnWAk5KNltVh+Kg=="],
+    "ultracite": ["ultracite@6.3.10", "", { "dependencies": { "@clack/prompts": "^0.11.0", "@trpc/server": "^11.7.2", "deepmerge": "^4.3.1", "glob": "^13.0.0", "jsonc-parser": "^3.3.1", "nypm": "^0.6.2", "trpc-cli": "^0.12.1", "zod": "^4.1.13" }, "bin": { "ultracite": "dist/index.js" } }, "sha512-I41KoWl09PklvXTdN4JWgs+6Z6n5PERDJGj1hOQXYEMbmKXZLrulG2QAZNEMJ9pdGwtcGk/MevpllWYXM5Wq3A=="],
 
     "undici-types": ["undici-types@7.8.0", "https://registry.npmmirror.com/undici-types/-/undici-types-7.8.0.tgz", {}, "sha512-9UJ2xGDvQ43tYyVMpuHlsgApydB8ZKfVYTsLDhXkFL/6gfkp+U8xTGdh8pMJv1SpZna0zxG1DwsKZsreLbXBxw=="],
 
