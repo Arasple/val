@@ -9,7 +9,7 @@
         "@types/bun": "^1.3.5",
         "turbo": "^2.7.2",
         "typescript": "^5.9.3",
-        "ultracite": "^7.0.6",
+        "ultracite": "^7.0.7",
       },
     },
     "apps/web": {
@@ -373,7 +373,7 @@
 
     "typescript": ["typescript@5.9.3", "", { "bin": { "tsc": "bin/tsc", "tsserver": "bin/tsserver" } }, "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw=="],
 
-    "ultracite": ["ultracite@7.0.6", "", { "dependencies": { "@clack/prompts": "^0.11.0", "@trpc/server": "^11.8.1", "deepmerge": "^4.3.1", "glob": "^13.0.0", "jsonc-parser": "^3.3.1", "nypm": "^0.6.2", "oxlint": "^1.36.0", "trpc-cli": "^0.12.1", "zod": "^4.3.2" }, "bin": { "ultracite": "dist/index.js" } }, "sha512-DkuY81uhVWdv9SIgR8BHQxLxi1Oz9KXRCSF3QCgn7tdv4BK/0UzRYLRQF7FG8byN7t7fpXh4dfDjTYq6Zxuh6Q=="],
+    "ultracite": ["ultracite@7.0.7", "", { "dependencies": { "@clack/prompts": "^0.11.0", "@trpc/server": "^11.8.1", "deepmerge": "^4.3.1", "glob": "^13.0.0", "jsonc-parser": "^3.3.1", "nypm": "^0.6.2", "oxlint": "^1.36.0", "trpc-cli": "^0.12.1", "zod": "^4.3.2" }, "bin": { "ultracite": "dist/index.js" } }, "sha512-RN0BeVPa1BKHdYE5ceziaeDJ8dgLUz8iU4VCwIGByy4DEYie5CklwJNtYrbJ58G+jmZYX52cP4mYbXVoSwgYkw=="],
 
     "undici-types": ["undici-types@7.8.0", "https://registry.npmmirror.com/undici-types/-/undici-types-7.8.0.tgz", {}, "sha512-9UJ2xGDvQ43tYyVMpuHlsgApydB8ZKfVYTsLDhXkFL/6gfkp+U8xTGdh8pMJv1SpZna0zxG1DwsKZsreLbXBxw=="],
 
