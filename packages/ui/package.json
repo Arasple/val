@@ -23,7 +23,7 @@
   },
   "devDependencies": {
     "@repo/tsconfig": "workspace:*",
-    "@tailwindcss/postcss": "^4.2.0",
-    "tailwindcss": "^4.2.0"
+    "@tailwindcss/postcss": "^4.2.1",
+    "tailwindcss": "^4.2.1"
   }
 }
